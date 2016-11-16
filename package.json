@@ -1,0 +1,13 @@
+{
+    "name": "canary-express",
+    "description": "Canary Express Javascript Middleware",
+    "version": "0.0.0",
+    "contributors": [
+        "Aaron Gunderson <aaron@agundy.com"
+    ],
+    "files": [
+        "LICENSE.md",
+        "README.md",
+        "index.js"
+    ]
+}
