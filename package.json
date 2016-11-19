@@ -1,13 +1,34 @@
 {
-    "name": "canary-express",
-    "description": "Canary Express Javascript Middleware",
-    "version": "0.0.0",
-    "contributors": [
-        "Aaron Gunderson <aaron@agundy.com"
-    ],
-    "files": [
-        "LICENSE.md",
-        "README.md",
-        "index.js"
-    ]
+  "name": "canary-express",
+  "description": "Canary Express Javascript Middleware",
+  "version": "0.0.0",
+  "contributors": [
+    "Aaron Gunderson"
+  ],
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "index.js"
+  ],
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agundy/canary-express.git"
+  },
+  "author": "Aaron Gunderson <aaron@agundy.com> (https://agundy.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agundy/canary-express/issues"
+  },
+  "homepage": "https://github.com/agundy/canary-express#readme",
+  "dependencies": {
+    "on-finished": "^2.3.0",
+    "on-headers": "^1.0.1"
+  }
 }
