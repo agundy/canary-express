@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "dependencies": {
     "canary-express": "*",
-    "express": "*",
-    "on-finished": "^2.3.0"
+    "express": "*"
   }
 }

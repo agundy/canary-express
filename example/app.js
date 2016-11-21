@@ -18,4 +18,12 @@ app.get('/', function (req, res) {
     res.send('Hello World!');
 });
 
+app.get('/auth', function (req, res) {
+    res.status(403).send('Unauthorized');
+});
+
+app.get('/err', function (req, res) {
+    res.status(500).send('Server error');
+});
+
 app.listen(3000);
